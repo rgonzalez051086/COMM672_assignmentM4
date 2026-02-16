@@ -1,0 +1,63 @@
+body {
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED
+
+    h1, h2, h3, h4, h5, h6 {
+        color: Blue;
+        border- bottom: 1px solid #929CA4;
+    }
+    p:first-of-type::first-letter {
+        /* or you might need a specific class/ID if not the very first p tag */font-size: 30px;
+    }
+    .features {
+        color: #CC1C0D;
+        font-weight: bold;
+    }
+    }
+    
+    #testimonial1, #testimonial2 {
+        font-style: italic;
+        margin-left: 50px; /* Use marginto indent */
+        margin-right: 50px;
+    }
+
+    a[href="http://mittens.com"] {
+        /* Base styles if needed */
+    }
+    a[href ^="http://mittens.com"] :link, a[href ^="http://mittens.com"] :visited {
+        color: purple; /*Example color for unvisited/visited */
+        text-decoration: none;
+    }
+    a[href ^="http://mittens.com"] :hover, a[href ^="http://mittens.com"] :active {
+        color: green; /*Example color for hover */
+        text-decoration: underline;
+    }
+
+    .management-team-list { /* Add a class to the specific list in HTML */
+        list-style-type: none;
+    }    
+    
+    .management-team-list li:last-child {
+        color: red;
+    }
+
+    .management-team-list { /* Add a class to the specific list in HTML */
+        list-style-type: none;
+    }
+
+    .management-team-list li:first-child {
+        color: blue;
+    }
+
+    .management-team-kist li:last-child {
+        color: red;
+    }
+    
+
+
+
+    
+    
+    
